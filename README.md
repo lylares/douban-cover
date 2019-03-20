@@ -6,10 +6,8 @@
 
 ### 预览
 
-PC端
 [![](https://ww2.sinaimg.cn/mw690/007vLMz8ly1g19b3bbjglj30yc0iq0vs.jpg)](https://www.lylares.com/a-wordpress-plugin-of-douban-movie.html"WordPress豆瓣封面插件")
 
-###
 [![](https://ww2.sinaimg.cn/mw690/007vLMz8ly1g19b45rw3hj30xi0q80wx.jpg)](https://www.lylares.com/a-wordpress-plugin-of-douban-movie.html"WordPress豆瓣封面插件")
 
 移动端
