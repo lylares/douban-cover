@@ -1,8 +1,8 @@
 <?php
-if(!defined('DOUBANCOVER')) die('非法访问 - Insufficient Permissions');
+if(!defined('DOUBANCOVER')) die('é�žæ³•è®¿é—® - Insufficient Permissions');
 
 class DBCover{
-//抓取函数
+
 public static function curl($url){ 
     $ch = curl_init(); 
     $timeout = 30; 
@@ -20,7 +20,7 @@ public static function curl($url){
     curl_close($ch); 
     return $content; 
 }
-//评分与星星
+
 public static function echoUi_star($score){
 	$star_num = $score*0.5;
 	
