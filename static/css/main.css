@@ -1,0 +1,27 @@
+/* 
+ ** @des For 豆瓣封面
+ ** @author lylares
+ ** @links https://www.lylares.com
+ ** @version 1.0.2
+ ** @updated 2019.03.19
+ */
+.main-douban-cover{padding-bottom:1rem;padding-top:.5rem;font:12px helvetica,arial,sans-serif;line-height:1.62;width:100%;background:#fff;margin:4px;margin-top:1rem;position:relative;overflow:hidden;box-sizing:border-box;font-size:13px;box-shadow:0 1px 2px rgba(0,0,0,.15),0 0 1px rgba(0,0,0,.15);border-radius:5px}
+.douban-cover-title{margin-bottom:5px;margin-top:5px;margin-left:10px}
+.main-douban-cover .cover-img-bg{margin-right:1.5rem;display:block;float:left;text-align:center;max-width:40%;margin-top:16px}
+.main-douban-cover .cover-img-bg img{border-width:0;vertical-align:middle;margin-bottom:10px;border-radius:3px;max-width:150px!important}
+.main-douban-cover .douban-info{word-wrap:break-word;padding-top:10px;padding-bottom:10px;background:linear-gradient(60deg,#020202,#1fa26cc2);color:#f0f8ff}
+.douban-cover-desc{margin:10px}
+.douban-cover-p{line-height:150%}
+.douban-scenarist a{text-decoration:none!important;color:#313131!important}
+.douban-cover-copyright a,.douban-director a,.douban-main-actor a{text-decoration:none!important;color:#f0f8ff}
+.douban-cover-copyright a{margin-right:1rem;float:right;color:#9E9E9E}
+.douban-cover-p-colored{color:#666}
+.douban-score{color:#FFEB3B;font-size:28px}
+.douban-discription{position:relative;font:12px helvetica,arial,sans-serif;line-height:1.62;margin-bottom:250px;width:100%}
+.doudan-comment-number{margin-left:210px;margin-bottom:5px}
+.douban-stars{margin-right:5px}
+.douban-star{display:inline-block;margin-right:1px;width:10px;height:10px;background-color:transparent;background-repeat:no-repeat;background-size:10px 10px}
+.douban-star-full{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAfhJREFUOBGlVD1LHFEUPXfWrzGJO2uhaIQ0iljESgKSpAjBwpXVKikEl6TzD6TwJ4gWaQMBS8WQgCRZ61QpglUgRbQUbMR1XfwodvbmvE1mdt/ssDPBC493733nnrkf7w2QQrSU29D9wY8poJAkkG6hD8O5E+IGgJsHkr8+7hTjdDpsnA0PLkHE4yK2r5iETyYUfdUkkRa96W3VOhLqXv8oFHNhgGCC/Xwc2jFKR0J0966w1IwVp/LasiNGOBTdxV24bhbqenCQRUY9qLzl2CasGEUVdbyA1M5R1wrq/gUqVxUp4tLghCX85D7VlonFksJQ9Un3w5S8c2sy8z3TGtGDRsla8op0vKe3O0UuMRBVDm9N8uX1Zg/3s8+hmU/sGS/wf8kN0UWZP/tgokJCY+jX3ENmWqJ3zNiJonoKXxalcPY9wFqExqmf3fvIuL+SM2WZNX9SCheHAZnZ2++h9FyxufdaQfG6CBznTvQshtDhSyA4jQieRmExhO2gaFBoi5OK8EkYECiqX9jdd1wauP7tbVgrw8a/TzETBpkp1nWZ96sg8+VV8j0j6VF4Dozo3sB4ix0ZypD3iO3r+QvQbfi1KVkobwcBkj//hmp5msSbXHxqlC67bCtDDr2fN/43wYvMaFkK1dOALNjlJa6Z8RuIP0vfAZfVhj/iqoy46fpKwgAAAABJRU5ErkJggg==)}
+.douban-star-gray{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAeRJREFUOBGtlDsvBFEUx3d2djfiMbTsQ0NEwTaiQSGiRKWREDofgMJHEAqdSPSE0BC9SiEqWQWSzT4SzSbrsR7Fzo7fEXfNg9klbjI5j/s/vzn3MRMI1DFyudxaPp8/qEMa0GqJ0ul0QzgcvtM0zbAsqzMWi+X9aoJ+kzIXiUSmgLXhinZOcn6jJpDieRvA7tvSX64vMJvNdiAdV3I67c5kMkMq/s76AgHMUqTbC0Oh0II9dvvVQ0mlUs2GYbRWKpU2ij4swA3pylX0ZJrmNPn7crn8oOv6Y7FYfEgmk8+i07gOl0z24js6cUHqCU1uwbksefcfYPJCHeDFx5LpUq7DNp2GZeYPw2KrVuLx+Gp1D4GOATwEZvwGSFdv6Oe48PtSVwVKwCfWB/SEJyZxHaMAcBLYmdI6gJIEGg0Gg1e4tTqVZfawzBsFE+u5h4heyLfYRT/4LERrcs95gNwr+RI8nbsLJWa5I+68B8hbPSJ3kYq/03qAvHVYFShL7phni9hSuU/r0TqA8u9DOGArKvCZzXCKEzyL7O8o4Fs1T4ftHGKXisU6gOzfIKLIp2CnVCr1JhKJHVXAiZ4C7Ae8Ts6UPDfCsUUhJRYLrJGCa+xSNBo9ss8pH+gr/jK/tj0a2ETv2IZ35FSkS7HbzakAAAAASUVORK5CYII=)}
+.douban-loader{color:#999;text-align:center;padding:10px 0}
+.douban-rank-span{position:relative;margin-left:210px;margin-top:-40px}
